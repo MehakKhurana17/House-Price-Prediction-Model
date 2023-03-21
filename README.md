@@ -1,8 +1,7 @@
 # House Price Prediction Model
 I have made this House Price Prediction Model using Linear Regression.
 
-![alt text]([http://url/to/img.png](https://th.bing.com/th/id/R.d5c5f2246919265f53e6f56f80071dd3?rik=Q7O1od8exJDnbQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f37%2f82%2fBI78kU.jpg&ehk=yP98fVqkFdzsxnJdZ17FmIQKByMdglW%2bEUXxXB7Mf6o%3d&risl=&pid=ImgRaw&r=0))
-
+![Home-Improvement-66](https://user-images.githubusercontent.com/121285271/226747968-69918e7e-fb63-4d87-bb80-fc021f149ece.jpg)
 
  ## Linear regression 
  
@@ -49,4 +48,4 @@ c. Mean squared error (MSE) / Root mean square error (RMSE)
 
 ## Model Evaluation
 
-Linear regression and Ridge regression both performed well giving a training accuracy of around 80.6 % and testing accuracy of almost 81% along with R square values around 0.81.+
+Linear regression and Ridge regression both performed well giving a training accuracy of around 80.6 % and testing accuracy of almost 81% along with R square values around 0.81.
