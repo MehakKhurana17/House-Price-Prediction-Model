@@ -11,6 +11,20 @@ I have made this House Price Prediction Model using Linear Regression.
 
 A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony.
 
+## Data:
+
+This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
+
+1. area_type    -> There are 4 area types here i.e., plot area, built-up area, super built-up area and carpet area
+2. availability -> This column shows whether the house is ready to move or not and if not, the date of availability is given.
+3. location     -> This column indicates the location of the house.
+4. size         -> This column tells the number of rooms in the property.
+5. society      -> This column gives the name of the society where the aprtment is located
+6. total_sqft   -> This column conveys the area measurement of house in square feet.
+7. bath         -> This column shows the number of bathrooms in the house.
+8. balcony      -> This column shows the number of balconies in the house.
+9. price        -> This is our target column which indicates the price of the house
+
 ## Steps followed are:
 
  📌 Applied data preprocessing and preparation techniques in order to obtain clean data which includes following steps:
