@@ -56,9 +56,12 @@ This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
 3. Making predictions from the model
 
 4. Testing the performance of the model -> There are three main performance metrics used for regression machine learning models:
-a. R square/Adjusted R square
-b. Mean absolute error (MAE)
-c. Mean squared error (MSE) / Root mean square error (RMSE)
+
+🔗 R square/Adjusted R square
+
+🔗 Mean absolute error (MAE)
+
+🔗 Mean squared error (MSE) / Root mean square error (RMSE)
 
 ## Model Evaluation
 
