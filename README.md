@@ -9,7 +9,7 @@ I have made this House Price Prediction Model using Linear, Lasso and Ridge Regr
 
 ## Objective:
 
-A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony.
+A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony using Regression.
 
 ## Data:
 
