@@ -1,5 +1,5 @@
 # House Price Prediction Model
-I have made this House Price Prediction Model using Linear Regression.
+I have made this House Price Prediction Model using Linear, Lasso and Ridge Regression.
 
 ![Home-Improvement-66](https://user-images.githubusercontent.com/121285271/226747968-69918e7e-fb63-4d87-bb80-fc021f149ece.jpg)
 
@@ -12,6 +12,8 @@ I have made this House Price Prediction Model using Linear Regression.
 A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony.
 
 ## Data:
+
+Link to the data: https://www.kaggle.com/datasets/bhavik0901/bangalore-house-price-prediction
 
 This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
 
