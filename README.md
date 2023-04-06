@@ -67,4 +67,4 @@ This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
 
 ## Model Evaluation
 
-Linear regression and Ridge regression both performed well giving a training accuracy of around 80.6 % and testing accuracy of almost 81% along with R square and adjusted R square values around 0.81. Also MSE,RMSE and MAE values are very low i.e. 0.045,0.212,0.163 respectively.
+Linear regression and Ridge regression both performed well giving a training and testing accuracy of almost 81% along with R square and adjusted R square values around 0.81. Also MSE,RMSE and MAE values are very low i.e. 0.045,0.212,0.163 respectively.
