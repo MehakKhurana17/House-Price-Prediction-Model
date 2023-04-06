@@ -41,15 +41,15 @@ This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
  
 2. Checking for duplication 
 
-3. Missing value check -> In case null values are present, simply drop the rows or use imputation techniques to fill those null values.
+3. Missing value check:  Since null values are present, simply dropped the null value rows for 'size' column and also used imputation techniques to fill null values for 'location' , 'bath' and 'balcony' columns. Also dropped the columns with excessive null values.
 
-4. Correlation Check -> The performance of some algorithms can deteriorate if two or more variables are tightly related, called multicollinearity. An example is linear regression, where one of the offending correlated variables should be removed in order to improve the skill of the model.
+4. Correlation Check -> The performance of some algorithms can deteriorate if two or more variables are tightly related, called multicollinearity. An example is linear regression, where one of the offending correlated variables should be removed in order to improve the skill of the model. Here 'bath' and 'bhk' are highly correlated, so I dropped 'bhk' column.
 
-5. Data Reduction -> Some columns or variables can be dropped if they do not add value to our analysis.
+5. Data Reduction -> Some columns or variables are dropped if they do not add value to our analysis. Here I dropped 'balcony' and 'availability' columns.
 
-6. Data Cleaning/Wrangling -> Some data may have data entry errors, and some variables may need data type conversion.
+6. Data Cleaning/Wrangling -> Some data may have data entry errors, and some variables may need data type conversion . The column 'total square feet' needs type coversion and also all other area units should be converted to square feet as well.
 
-7. Feature Engineering -> Feature engineering refers to the process of using domain knowledge to select and transform the most relevant variables from raw data when creating a predictive model. The main goal of Feature engineering is to create meaningful data from raw data.
+7. Feature Engineering -> Feature engineering refers to the process of using domain knowledge to select and transform the most relevant variables from raw data when creating a predictive model. The main goal of Feature engineering is to create meaningful data from raw data. Here I transformed location and size column.
 
 8. Univariate Analysis -> Analyzing/visualizing the dataset by taking one variable at a time.
 
