@@ -1,8 +1,16 @@
 # House Price Prediction Model
 
-# Introduction
-I have made this House Price Prediction Model using Linear, Lasso and Ridge Regression.
+# About Project
+I have made this House Price Prediction Model using Linear, Lasso and Ridge Regression. The main objectives of this case study are as follows:
 
+1. To apply data preprocessing and preparation techniques in order to obtain clean data (EDA).
+2. To build machine learning models able to predict house price based on house features.
+3. To analyze and compare models performance in order to choose the best model.
+
+#
+![Home-Improvement-66](https://user-images.githubusercontent.com/121285271/226747968-69918e7e-fb63-4d87-bb80-fc021f149ece.jpg)
+
+# Introduction
 ### Linear Regression 
  
  It is used when we want to make predictions for continuous variables (in our case it's house price). The independent variable (or target column) is predicted based on how the value of the dependent variable is changing according to the value of the independent variable.
@@ -19,10 +27,7 @@ Ridge takes a step further and penalizes the model for the sum of squared value 
 
 
 
-#
-![Home-Improvement-66](https://user-images.githubusercontent.com/121285271/226747968-69918e7e-fb63-4d87-bb80-fc021f149ece.jpg)
-
-## Objective:
+## Problem Statement:
 
 A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony using Regression.
 
