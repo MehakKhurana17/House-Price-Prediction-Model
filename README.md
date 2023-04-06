@@ -10,6 +10,10 @@ I have made this House Price Prediction Model using Linear, Lasso and Ridge Regr
 #
 ![Home-Improvement-66](https://user-images.githubusercontent.com/121285271/226747968-69918e7e-fb63-4d87-bb80-fc021f149ece.jpg)
 
+# Problem Statement:
+
+A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony using Regression.
+
 # Introduction
 ### Linear Regression 
  
@@ -27,11 +31,7 @@ Ridge takes a step further and penalizes the model for the sum of squared value 
 
 
 
-## Problem Statement:
-
-A machine learning model is to be proposed to predict a house price based on data related to the house i.e., its area type, availability, location, size, society, total square ft, bath and balcony using Regression.
-
-## Data:
+# Data:
 
 Link to the data: https://www.kaggle.com/datasets/bhavik0901/bangalore-house-price-prediction
 
@@ -47,7 +47,7 @@ This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
 8. balcony      -> This column shows the number of balconies in the house.
 9. price        -> This is our target column which indicates the price of the house
 
-## Steps followed are:
+# Steps followed are:
 
  📌 Applied data preprocessing and preparation techniques in order to obtain clean data which includes following steps:
 
@@ -85,6 +85,6 @@ This data is from Kaggle. It has 13,320 rows and 9 columns as described below:
 
 🔗 Mean squared error (MSE) / Root mean square error (RMSE)
 
-## Model Evaluation
+# Model Evaluation
 
 Linear regression and Ridge regression both performed well giving a training and testing accuracy of almost 81% along with R square and adjusted R square values around 0.81. Also MSE,RMSE and MAE values are very low i.e. 0.045,0.212,0.163 respectively.
