@@ -6,6 +6,12 @@ I have made this House Price Prediction Model using Linear, Lasso and Ridge Regr
  ## Linear regression 
  
  It is used when we want to make predictions for continuous variables (in our case it's house price). The independent variable (or target column) is predicted based on how the value of the dependent variable is changing according to the value of the independent variable.
+ 
+Lasso and Ridge are all part of the Linear Regression family where the x (predictors) and y (target) are assumed to have a linear relationship. In sklearn, LinearRegression refers to the most ordinary least square linear regression method without regularization (penalty on weights).
+
+Lasso is a modification of linear regression, where the model is penalized for the sum of absolute values of the weights. Thus, the absolute values of weight will be (in general) reduced, and many will tend to be zeros. Lasso introduced a new hyperparameter, alpha, the coefficient to penalize weights.
+
+Ridge takes a step further and penalizes the model for the sum of squared value of the weights. Thus, the weights not only tend to have smaller absolute values, but also really tend to penalize the extremes of the weights, resulting in a group of weights that are more evenly distributed.
 
 ## Objective:
 
